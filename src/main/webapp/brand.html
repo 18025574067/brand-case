@@ -165,7 +165,7 @@
                             </el-form-item>
 
                             <el-form-item>
-                                <el-button type="primary" @click="UpdateBrand">提交</el-button>
+                                <el-button type="primary" @click="_updateBrand">提交</el-button>
                                 <el-button @click="updateDialogVisible = false">取消</el-button>
                             </el-form-item>
                         </el-form>
@@ -420,7 +420,7 @@
             },
 
             // 点击修改成功提交
-            UpdateBrand(){
+            _updateBrand(){
                 // var _this = this
                 // 发送axios请求，添加数据
                 axios({
