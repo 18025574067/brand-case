@@ -108,7 +108,7 @@ public class BrandServlet extends BaseServlet {
 
 
     /**
-     * 新增品牌
+     * 修改
      *
      * @param request
      * @param response
